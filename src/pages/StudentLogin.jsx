@@ -46,7 +46,7 @@ function StudentLogin() {
       <section className="login-form">
         <div>
           <h1>Login as Student</h1>
-          <form onSubmit={handleSubmit}> 
+          <form onSubmit={handleSubmit} style={{display:'flex', flexDirection:'column', gap:'1rem'}}> 
             <label htmlFor="email">Email</label>
             <input
               type="email"
